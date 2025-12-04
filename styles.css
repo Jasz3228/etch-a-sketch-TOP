@@ -12,6 +12,7 @@
   background-color: white;
   border: 1px solid black;
   box-sizing: border-box;
-  flex: 1 0 calc(100% / 16);
-  height: calc(100% / 16);
+  width: 31.25px;
+  height: 31.25px;
+  /* container size 500px / 16 = width and height of each item */
 }
