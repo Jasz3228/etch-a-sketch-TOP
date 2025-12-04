@@ -1,0 +1,8 @@
+const gridContainer = document.getElementById("grid-container");
+const numOfSquares = 16;
+
+for (let i = 0; i < numOfSquares * numOfSquares; i++) {
+  const gridItem = document.createElement("div");
+  gridItem.classList.add("grid-item");
+  gridContainer.appendChild(gridItem);
+}
