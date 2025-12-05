@@ -8,6 +8,7 @@ for (let i = 0; i < numOfSquares * numOfSquares; i++) {
 
   gridItem.addEventListener("mouseenter", (event) => {
     event.target.style.backgroundColor = "black";
+    event.target.style.border = "1px solid white";
   });
 
 }
