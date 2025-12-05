@@ -9,7 +9,7 @@
 }
 
 .grid-item { 
-  background-color: white;
+  background-color: lightgray;
   border: 1px solid black;
   box-sizing: border-box;
   width: 31.25px;
